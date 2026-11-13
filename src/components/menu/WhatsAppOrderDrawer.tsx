@@ -63,7 +63,7 @@ export default function WhatsAppOrderDrawer({ open, onClose, lines, onAdd, onRem
             role="dialog"
             aria-modal="true"
             aria-label="Your order"
-            className="fixed inset-y-0 right-0 z-50 flex w-full max-w-md flex-col border-l border-ink-700 bg-ink-900"
+            className="fixed inset-y-0 right-0 z-50 flex w-full max-w-md flex-col border-l border-ink-700 bg-ink-900 sm:max-w-md"
             initial={{ x: "100%" }}
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
@@ -131,7 +131,7 @@ export default function WhatsAppOrderDrawer({ open, onClose, lines, onAdd, onRem
               </div>
             </div>
 
-            <div className="space-y-3 border-t border-ink-700 px-5 py-4">
+            <div className="space-y-3 border-t border-ink-700 px-5 pb-safe py-4">
               <div className="flex items-baseline justify-between">
                 <span className="text-stone-400">Estimated subtotal</span>
                 <span className="font-display text-2xl font-semibold text-gold-400">{formatGHS(subtotal)}</span>
@@ -214,7 +214,7 @@ export function MenuWithOrdering() {
     <div className="mt-6">
       <MenuCategoryTabs categories={menuCategories} active={active} onChange={setActive} />
       <p className="mt-4 text-stone-400">{category.blurb}</p>
-      <div className="mt-5 grid gap-4 lg:grid-cols-2">
+      <div className="mt-5 grid gap-3 sm:gap-4 lg:grid-cols-2">
         {items.map((item) => (
           <MenuItemCard key={item.id} item={item} quantity={quantities.get(item.id) ?? 0} onAdd={add} onRemove={remove} />
         ))}
@@ -223,7 +223,7 @@ export function MenuWithOrdering() {
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="fixed bottom-24 right-4 z-30 inline-flex items-center gap-2 rounded-full bg-gold-500 px-5 py-3.5 font-semibold text-ink-950 shadow-glow transition hover:bg-gold-400 md:bottom-8 md:right-8"
+        className="fixed bottom-28 right-4 z-30 inline-flex items-center gap-2 rounded-full bg-gold-500 px-4 py-3 text-sm font-semibold text-ink-950 shadow-glow transition hover:bg-gold-400 sm:px-5 sm:py-3.5 sm:text-base md:bottom-8 md:right-8"
         aria-label={`Open order, ${count} items`}
       >
         <ShoppingBag className="h-5 w-5" aria-hidden />

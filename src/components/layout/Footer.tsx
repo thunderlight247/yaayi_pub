@@ -6,7 +6,7 @@ import { buildWhatsAppUrl } from "@/utils/whatsapp";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-ink-700 bg-ink-900">
+    <footer className="border-t border-ink-700 bg-ink-900 pb-20 md:pb-0">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-3">
         <div>
           <p className="font-display text-xl font-semibold text-white">{businessInfo.name}</p>

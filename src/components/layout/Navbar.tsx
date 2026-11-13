@@ -101,6 +101,15 @@ export default function Navbar() {
                 </Link>
               </li>
             ))}
+            <li className="pt-2">
+              <button
+                type="button"
+                onClick={openBookingModal}
+                className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-your-orange px-5 py-3 text-sm font-semibold text-white transition hover:bg-your-orange/90"
+              >
+                <CalendarDays className="h-4 w-4" aria-hidden /> Book a table
+              </button>
+            </li>
           </ul>
         </div>
       )}

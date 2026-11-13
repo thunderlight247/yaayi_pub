@@ -3,12 +3,12 @@ import type { GalleryItem } from "@/types";
 // Drop more photos into public/images/ using these filenames and the layout fills in automatically.
 export const galleryItems: GalleryItem[] = [
   {
-    id: "party-platter",
-    caption: "Chicken mandi for sharing",
+    id: "banku-tilapia",
+    caption: "Banku with grilled tilapia",
     aspect: "aspect-[3/4]",
     image: {
-      src: "/images/chicken-mandi10.jpg",
-      alt: "Party platter of assorted rice, grilled chicken, meat and salads from Yaayi’s Pub & Grill in Damongo",
+      src: "/images/banku-tilapia.jpg",
+      alt: "Banku with whole grilled tilapia and pepper sauce — Yaayi's Pub & Grill, Damongo",
     },
   },
   {
@@ -17,43 +17,43 @@ export const galleryItems: GalleryItem[] = [
     aspect: "aspect-[3/4]",
     image: {
       src: "/images/chicken-dum-biryani6.jpg",
-      alt: "Jollof rice with grilled chicken leg and salad served at Yaayi’s Pub & Grill",
+      alt: "Chicken dum biryani with crispy fried onions at Yaayi's Pub & Grill",
     },
   },
   {
-    id: "banku-tilapia",
-    caption: "Aloo poori",
+    id: "spicy-wings",
+    caption: "Spicy grilled wings",
     aspect: "aspect-square",
     image: {
-      src: "/images/aloo-poori1.jpeg",
-      alt: "Aloo poori with potato curry served at Yaayi’s Pub & Grill",
+      src: "/images/spicy-wings.jpg",
+      alt: "Spicy grilled chicken wings served at Yaayi's Pub & Grill",
     },
   },
   {
     id: "drinks-bar",
-    caption: "Chicken manchurian",
+    caption: "Cold drinks & cocktails",
     aspect: "aspect-[4/3]",
     image: {
-      src: "/images/babycorn-manchurian3.jpg",
-      alt: "Chicken manchurian with peppers and spring onions at Yaayi’s Pub & Grill",
+      src: "/images/champagne.jpg",
+      alt: "Chilled champagne and drinks at Yaayi's Pub & Grill bar",
     },
   },
   {
     id: "lounge-vibe",
-    caption: "Outside Yaayi’s on the road",
+    caption: "Outside Yaayi's on the road",
     aspect: "aspect-[4/3]",
     image: {
       src: "/images/WhatsApp%20Image%202026-11-13%20at%202.24.06%20PM.jpeg",
-      alt: "Yaayi’s Pub & Grill building and signboard on the road in Damongo",
+      alt: "Yaayi's Pub & Grill building and signboard on Hospital Road, Damongo",
     },
   },
   {
     id: "dj-night",
-    caption: "Bhel puri",
+    caption: "Live DJ nights every Friday",
     aspect: "aspect-square",
     image: {
-      src: "/images/bhel-puri4.jpg",
-      alt: "Bhel puri with puffed rice, sev and onion served at Yaayi’s Pub & Grill",
+      src: "/images/event-dj.jpg",
+      alt: "Live DJ night at Yaayi's Pub & Grill every Friday",
     },
   },
 ];

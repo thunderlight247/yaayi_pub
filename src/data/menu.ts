@@ -18,8 +18,8 @@ export const menuItems: MenuItem[] = [
     category: "local",
     popular: true,
     image: {
-      src: "/images/party-platter.webp",
-      alt: "Banku with grilled tilapia served at Yaayi’s Pub & Grill, Damongo",
+      src: "/images/banku-tilapia.jpg",
+      alt: "Banku with fresh grilled tilapia and pepper sauce served at Yaayi’s Pub & Grill, Damongo",
     },
   },
   {
@@ -29,8 +29,8 @@ export const menuItems: MenuItem[] = [
     price: 70,
     category: "local",
     image: {
-      src: "/images/party-platter.webp",
-      alt: "Grilled chicken and meat with salad and sauces at Yaayi’s Pub & Grill",
+      src: "/images/banku-chicken.jpg",
+      alt: "Banku with chargrilled chicken and fresh pepper sauce at Yaayi’s Pub & Grill",
     },
   },
   {
@@ -76,8 +76,8 @@ export const menuItems: MenuItem[] = [
     category: "rice-grills",
     popular: true,
     image: {
-      src: "/images/jollof-chicken.webp",
-      alt: "Grilled chicken leg with salad and stew at Yaayi’s Pub & Grill",
+      src: "/images/spicy-wings.jpg",
+      alt: "Crispy grilled spicy chicken wings at Yaayi’s Pub & Grill",
     },
   },
   {
@@ -98,8 +98,8 @@ export const menuItems: MenuItem[] = [
     price: 90,
     category: "pizza-sides",
     image: {
-      src: "/images/truck-4.jpg",
-      alt: "Yaayi’s Pub & Grill food truck",
+      src: "/images/assorted-pizza.jpg",
+      alt: "Freshly baked hot assorted pizza at Yaayi’s Pub & Grill",
     },
   },
   {
@@ -109,8 +109,8 @@ export const menuItems: MenuItem[] = [
     price: 35,
     category: "pizza-sides",
     image: {
-      src: "/images/truck-3.jpg",
-      alt: "Yaayi’s Pub & Grill food truck",
+      src: "/images/kelewele.jpg",
+      alt: "Spicy fried ripe plantain kelewele and crispy fries at Yaayi’s Pub & Grill",
     },
   },
   {
@@ -119,6 +119,10 @@ export const menuItems: MenuItem[] = [
     description: "Ice-cold Ghanaian beers.",
     price: 20,
     category: "bar",
+    image: {
+      src: "/images/local-beer.jpg",
+      alt: "Ice-cold local Ghanaian beer in frosty glass at Yaayi’s Pub & Grill",
+    },
   },
   {
     id: "imported-beer",
@@ -126,6 +130,10 @@ export const menuItems: MenuItem[] = [
     description: "Chilled imported lagers and ciders.",
     price: 30,
     category: "bar",
+    image: {
+      src: "/images/imported-beer.jpg",
+      alt: "Chilled imported lagers and ciders on ice at Yaayi’s Pub & Grill",
+    },
   },
   {
     id: "wine",
@@ -133,6 +141,10 @@ export const menuItems: MenuItem[] = [
     description: "Red, white and rosé wines.",
     price: 100,
     category: "bar",
+    image: {
+      src: "/images/wine-bottle.jpg",
+      alt: "Fine red, white and rosé wine bottles at Yaayi’s Pub & Grill",
+    },
   },
   {
     id: "champagne",
@@ -140,6 +152,10 @@ export const menuItems: MenuItem[] = [
     description: "For birthdays and big nights out.",
     price: 250,
     category: "bar",
+    image: {
+      src: "/images/champagne.jpg",
+      alt: "Chilled champagne bottle with flutes for celebration at Yaayi’s Pub & Grill",
+    },
   },
   {
     id: "whiskey-spirits",
@@ -147,6 +163,10 @@ export const menuItems: MenuItem[] = [
     description: "Whiskey and other spirits, served neat or with a mixer.",
     price: 25,
     category: "bar",
+    image: {
+      src: "/images/whiskey-spirits.jpg",
+      alt: "Whiskey and hard liquor served neat or on the rocks at Yaayi’s Pub & Grill",
+    },
   },
   {
     id: "soft-drinks",
@@ -154,6 +174,10 @@ export const menuItems: MenuItem[] = [
     description: "Sodas, juices and bottled water.",
     price: 10,
     category: "bar",
+    image: {
+      src: "/images/soft-drinks.jpg",
+      alt: "Ice-cold soft drinks, sodas and juices at Yaayi’s Pub & Grill",
+    },
   },
   {
     id: "chilled-yoghurt",
@@ -161,6 +185,10 @@ export const menuItems: MenuItem[] = [
     description: "Cold, creamy yoghurt drink.",
     price: 15,
     category: "bar",
+    image: {
+      src: "/images/chilled-yoghurt.jpg",
+      alt: "Refreshing chilled yoghurt drink at Yaayi’s Pub & Grill",
+    },
   },
 ];
 

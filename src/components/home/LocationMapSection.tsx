@@ -37,7 +37,7 @@ export default function LocationMapSection() {
             </ul>
           </div>
 
-          <div className="mt-7 flex flex-wrap gap-3">
+          <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <a href={`https://www.google.com/maps/dir/?api=1&destination=${q}`} target="_blank" rel="noopener noreferrer"
               className="rounded-full bg-gold-500 px-5 py-3 text-sm font-semibold text-ink-950 transition hover:bg-gold-400">
               Get directions
@@ -49,7 +49,7 @@ export default function LocationMapSection() {
           </div>
         </div>
 
-        <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl border border-ink-700 bg-ink-800 lg:aspect-auto lg:min-h-[420px]">
+        <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl border border-ink-700 bg-ink-800 sm:aspect-video lg:aspect-auto lg:min-h-[420px]">
           <iframe
             title="Map showing Yaayi’s Pub & Grill on Hospital Road, Damongo"
             src={`https://www.google.com/maps?q=${q}&output=embed`}

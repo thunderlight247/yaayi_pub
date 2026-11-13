@@ -58,6 +58,7 @@ export interface EventItem {
   description: string;
   icon: "music" | "party" | "football";
   occasion: BookingOccasion;
+  image?: ImageAsset;
 }
 
 export interface GalleryItem {

@@ -18,7 +18,7 @@ export default function FeaturedDishes() {
         <Link href="/menu" className="text-sm font-medium text-gold-400 hover:text-gold-300">See the full menu</Link>
       </div>
 
-      <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {featured.map((item) => (
           <article key={item.id} className="overflow-hidden rounded-2xl border border-ink-700 bg-ink-900">
             <div className="relative aspect-[4/3]">

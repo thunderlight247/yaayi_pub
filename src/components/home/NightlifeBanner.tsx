@@ -33,7 +33,7 @@ export default function NightlifeBanner() {
     <section ref={ref} className="relative overflow-hidden bg-gradient-to-br from-ink-800 via-ink-900 to-ink-950 py-20">
       <div className="pointer-events-none absolute -left-24 bottom-0 h-80 w-80 rounded-full bg-ember/20 blur-3xl" aria-hidden />
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
-        <h2 className="max-w-2xl font-display text-4xl font-semibold leading-tight text-white sm:text-5xl">
+        <h2 className="max-w-2xl font-display text-3xl font-semibold leading-tight text-white sm:text-4xl lg:text-5xl">
           Open late. Music, matches and parties.
         </h2>
         <div className="mt-10 grid gap-5 md:grid-cols-3">
