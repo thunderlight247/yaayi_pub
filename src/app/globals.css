@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  background: #0a0a0b;
+}
+
+body {
+  @apply bg-ink-950 font-sans text-stone-200 antialiased;
+}
+
+/* Lenis smooth scroll */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* Shiny text (React Bits "ShinyText" style) */
+.shiny-text {
+  background: linear-gradient(110deg, #e8a920 35%, #fff3c9 50%, #e8a920 65%);
+  background-size: 220% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shine 4.5s linear infinite;
+}
+@keyframes shine {
+  0% { background-position: 120% 0; }
+  100% { background-position: -120% 0; }
+}
+
+:focus-visible {
+  outline: 2px solid #f5c451;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shiny-text { animation: none; }
+  * { scroll-behavior: auto !important; }
+}
+
+.pb-safe { padding-bottom: max(0.5rem, env(safe-area-inset-bottom)); }
